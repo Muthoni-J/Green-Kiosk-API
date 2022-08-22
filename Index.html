@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kiosk</title>
 </head>
 <body>
-    <h1 id="tittle">GreenKiosk</h1>
-    <p>Fresh Vegetables and Fruits</p>
+    <h1 id="title">Welcome to Greens Kiosk</h1>
+    <p>We sell fruits and vegetables</p>
     <h2>Products</h2>
     <ul id="products">
-    <script>
+         <!-- Show fruits from API -->
+    <!-- <script>
         let productlist=document.getElementById("products")
         const displayproductlist=[]
         $.getJSON("/products",function(products){
@@ -19,12 +20,13 @@
             console.log(displayproductlist)
         }
         )
-    </script>
+    </script> -->
 </ul>
 
-    <h2>Fruits</h2>
-    <ul id="fruits">
-    <script>
+    <h3>Fruits</h3>
+    <ul id="fruList">
+         <!-- Show fruits from API -->
+    <!-- <script>
         let frulist=document.getElementById("fruits")
         const displayfrulist=[]
         $.getJSON("/fruits",function(product){
@@ -32,12 +34,13 @@
             console.log(displayfrulist)
         }
         )
-    </script>
+    </script> -->
 </ul>
 
-<h2>Vegetables</h2>
-<ul id="vegetables">
-<script>
+<h3>Vegetables</h3>
+<ul id="vegList">
+     <!-- Show fruits from API -->
+<!-- <script>
     let veglist=document.getElementById("vegetables")
     const displayveglist=[]
     $.getJSON("/vegetables",function(vegetables){
@@ -45,13 +48,14 @@
         console.log(displayveglist)
     }
     )
-</script>
+</script> -->
 </ul>
-  <script src="GreenKiosk.js"></script>  
-  <script src="server.js"></script> 
-  <script src="Rest.js"></script>  
+ 
+  <script src="Rest.js"></script>
    
   
 
 </body>
 </html>
+
+
